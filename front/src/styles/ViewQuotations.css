@@ -1,0 +1,35 @@
+.view-quotations-container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .quotations-content {
+    flex: 1;
+    padding: 20px;
+    background: #f4f4f4;
+  }
+  
+  .quotations-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .eye-icon {
+    margin-right: 10px;
+    color: #1890ff;
+  }
+  
+  .quotations-table {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .loading-spinner {
+    display: block;
+    margin: 20px auto;
+  }
+  

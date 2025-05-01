@@ -1,0 +1,127 @@
+/* AddProduct.css */
+
+/* Container for Admin's Add Product Page */
+.admin-container {
+  display: flex;
+  height: 100vh;
+}
+
+.add-product-container {
+  width: 75%;
+  padding: 25px;
+  margin-left: 70px;
+  margin-right: 70px; /* Reduced the margin value to minimize the gap */
+  background-color: #f4f6f9;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.form-group input[type="file"] {
+  border: none;
+}
+
+.form-group input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.form-group input[type="number"]::-webkit-outer-spin-button,
+.form-group input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.image-input {
+  flex: 1;
+}
+
+/* Styles for the Admin Sidebar */
+.admin-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 100%;
+  background-color: #2c3e50;
+  padding: 20px;
+  color: white;
+}
+
+.admin-sidebar a {
+  display: block;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.admin-sidebar a:hover {
+  background-color: #34495e;
+}
+
+.admin-sidebar h3 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .admin-container {
+    flex-direction: column;
+  }
+
+  .add-product-container {
+    width: 100%;
+    margin-left: 0;
+  }
+}

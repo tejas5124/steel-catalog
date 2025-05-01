@@ -1,0 +1,43 @@
+.send-mail-container {
+    display: flex;
+  }
+  
+  .send-mail-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .quotations-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .quotations-table th, .quotations-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .quotations-table th {
+    background-color: #f4f4f4;
+  }
+  
+  button {
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+  }
+  
+  .email-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .email-btn:hover {
+    background-color: #0056b3;
+  }
+  
